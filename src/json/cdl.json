@@ -1,0 +1,100 @@
+{
+  "T-Biomedica":{
+    "formula": "(110/27.17) * ($M * $CFU + $T * 3)/($CFU + 3)",
+    "cfu":177,
+    "Tmin" : 18,
+    "Tmax" : 30,
+    "Tstep" : 1,
+    "Cmin" : 0,
+    "Cmax" : 0,
+    "Cstep" : 0
+  },
+
+  "T-Elettronica":{
+    "formula": "2 + 4*($M * $CFU + $T * 3)/($CFU + 3)",
+    "cfu":177,
+    "Tmin" : 18,
+    "Tmax" : 33,
+    "Tstep" : 1,
+    "Cmin" : 0,
+    "Cmax" : 0,
+    "Cstep" : 0
+  },
+
+  "T-Informatica":{
+    "formula": "$M * 3 + 18 + $T + $C",
+    "cfu":177,
+    "Tmin" : 0,
+    "Tmax" : 0,
+    "Tstep" : 0,
+    "Cmin" : 1,
+    "Cmax" : 7,
+    "Cstep" : 1
+  },
+
+  "T-Telecomunicazioni":{
+    "formula": "$M * 11/3 + $C",
+    "cfu":177,
+    "Tmin" : 0,
+    "Tmax" : 0,
+    "Tstep" : 0,
+    "Cmin" : 1,
+    "Cmax" : 11,
+    "Cstep" : 1
+  },
+
+  "M-Biomedica":{
+    "formula": "$M * 3.5 + 11 + $C",
+    "cfu":105,
+    "Tmin" : 0,
+    "Tmax" : 0,
+    "Tstep" : 0,
+    "Cmin" : 0.5,
+    "Cmax" : 4,
+    "Cstep" : 0.5
+  },
+
+  "M-Elettronica":{
+    "formula": "4 * ($M * $CFU + $T * 18)/($CFU + 18)",
+    "cfu":102,
+    "Tmin" : 18,
+    "Tmax" : 30,
+    "Tstep" : 1,
+    "Cmin" : 0,
+    "Cmax" : 0,
+    "Cstep" : 0
+  },
+
+  "M-Informatica":{
+    "formula": "$M * 3 + 22 + $T + $C",
+    "cfu":96,
+    "Tmin" : 0,
+    "Tmax" : 0,
+    "Tstep" : 0,
+    "Cmin" : 1,
+    "Cmax" : 3,
+    "Cstep" : 1
+  },
+
+  "M-Robotica":{
+    "formula": "$M * 3 + 18.5 + $T",
+    "cfu":102,
+    "Tmin" : 0,
+    "Tmax" : 0,
+    "Tstep" : 0,
+    "Cmin" : 1,
+    "Cmax" : 3,
+    "Cstep" : 1
+  },
+
+  "M-Telecomunicazioni":{
+    "formula": "$M * 11/3 + $C",
+    "cfu":96,
+    "Tmin" : 0,
+    "Tmax" : 0,
+    "Tstep" : 0,
+    "Cmin" : 1,
+    "Cmax" : 11,
+    "Cstep" : 1
+  }
+}

@@ -1,0 +1,35 @@
+Esempi di requisiti non funzionali:
+N01) Il Sistema deve essere sviluppato in linguaggio PhP
+N02) Il Sistema deve essere sviluppato su IDE PhpStorm
+N03) Il sistema deve prelevare i dati degli studenti dall'apposito file GestioneCarrieraStudente.json
+
+Esempio di applicazione dei criteri MoscoW
+
+MUST HAVE (DEVE): REQUISITO FONDAMENTALE PER IL SISTEMA
+M01) Il Sistema deve consentire all'unità  didattica di generare un prospetto di laurea con tutti laureandi per la commissione 
+M02) Il Sistema deve fornire una interfaccia grafica all'unità didattica
+M03) Nel corso di Ingegneria Informatica il report dev'essere fatto come in (b)
+M04) Il report della commissione dev'essere come in (a)
+M05) Il sistema dovrà consentire la configurazione tramite un file del nome del corso di laurea, del voto di laurea, dei CFU richiesti e dei parametri 
+M06) Il sistema deve poter inviare un e-mail automaticamente ai diretti interessati, tipo in figura (e)
+M07) La GUI (l'interfaccia grafica) deve avvicinarsi a quello in figura (f)
+M08) Per gli esami che non sono in trentesimi, il voto deve essere 0 e non deve essere considerato ai fini della media e deve evidenziare quelli da filtrare nel report della commissione (ma anche degli altri?)
+M09) Il sistema deve, per il corso di laurea di Ingegneria Informatica, calcolare la media pesata degli esami (ING-INF/05) e avere nel prospetto le seguenti linee in più: bonus, media pesata
+M10) Il voto di tesi (T) partirà inizialmente da 0 siccome verrà deciso in sede di laurea e potrà avere poi un voto compreso tra 18 e 30
+M11) Gli esami che non fanno media non devono avere la spunta nella colonna ME nel report studente
+M12) Ai fini della media, se ci si laurea in corso (e non fuori corso), il voto più basso non verrà conteggiato
+
+SHOULD HAVE (DOVREBBE): REQUISITO IMPORTANTE CHE PERO' PUO' ESSERE OMESSO
+S01) Il Sistema dovrebbe consentire all'amministratore di configurare il valore della lode
+S02) Il Sistema dovrebbe consentire la cancellazione di tutti i dati relativi all'appello di laurea
+...
+
+COULD HAVE (POTREBBE): REQUISITO OPZIONALE (DA REALIZZARE SE C'E' TEMPO)
+C01) Il Sistema potrebbe consentire all'unità  didattica di proseguire l'invio dei prospetti di laurea dopo una interruzione
+C02) Il Sistema potrebbe fornire una interfaccia grafica all'amministratore per accedere ai file di configurazione
+...
+
+WANT TO HAVE (VORREBBE): REQUISITO CHE PUO' ESSERE REALIZZATO IN SUCCESSIVE RELEASE
+W01) Il Sistema vorrebbe consentire all'unità didattica di ricevere una email con la conferma di invio dei prospetti
+W02) Il Sistema vorrebbe consentire all'unità didattica di generare un prospetto con le statistiche dell'appello di laurea
+...
